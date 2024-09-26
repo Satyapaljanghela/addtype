@@ -1,0 +1,16 @@
+x=1 #int
+y=1.0 #float
+z=1j #complex
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+#converting from int to float and float to complex and complex to float
+
+a=float(x)
+print(a)
+b=complex(y)
+print(b)
+c=float(x)
+print(c)
